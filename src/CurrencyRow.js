@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function CurrencyRow() {
+function CurrencyRow() {
     return (
         <div>
             <input type="number" />
@@ -8,3 +8,5 @@ export default function CurrencyRow() {
         </div>
     )
 }
+
+export default CurrencyRow;
